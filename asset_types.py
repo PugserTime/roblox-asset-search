@@ -25,6 +25,7 @@ asset_type_mapping = {
     32: "Package",
     34: "GamePass",
     38: "Plugin",
+    39: "SolidModel",
     40: "MeshPart",
     41: "HairAccessory",
     42: "FaceAccessory",
