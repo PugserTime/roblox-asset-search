@@ -28,7 +28,7 @@ def load_settings() -> dict:
         "start_asset_id": 18979790360,
         "creator_ids": [3049798, 16173083, 1776923845, 16009469],
         "search_speed": 1,
-        "use_roproxy": False
+        "use_roproxy": True
     }
 
 def save_settings(settings: dict):
@@ -131,7 +131,7 @@ class AssetScannerBot(commands.Bot):
                     print(f"Name: {asset_name}")
                     print(f"Creator Name: {creator_name}")
                     print(f"Creator ID: {creator_id}")
-                    print(f"Type: {asset_type_name}")
+                    print(f"Type: {asset_type_name}, TypeId: {asset_type_id}")
                     print(f"Link: https://create.roblox.com/store/asset/{self.start_asset_id}")
                     print(f"Created: {created_date}")
                     print("-" * 30)
