@@ -47,7 +47,7 @@ asset_type_mapping = {
     58: "EyeAccessory",
     61: "EmoteAnimation",
     62: "Video",
-    63: "TexturePack"
+    63: "TexturePack",
     64: "TShirtAccessory",
     65: "ShirtAccessory",
     66: "PantsAccessory",
